@@ -5,33 +5,28 @@ import { ShieldCheck, Leaf } from "lucide-react"
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden">
+    <section className="relative min-h-[120vh] flex items-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/hero-bg.jpg"
+          src="/images/hero-bg1.png"
           alt="Homemade maternity nutrition foods"
           fill
-          className="object-cover object-center"
+          className="object-cover object-center-[center_80%]"
           priority
         />
-        <div className="absolute inset-0 bg-background/60" />
+        <div className="absolute inset-0 bg-background/10" />
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16 w-full">
+      <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-2 pb-16 w-full">
         <div className="max-w-2xl">
-          {/* Trust badge */}
-          <div className="inline-flex items-center gap-2 bg-accent/90 backdrop-blur-sm text-accent-foreground px-4 py-2 rounded-full text-xs font-semibold mb-6 shadow-sm fade-in-up">
-            <Leaf size={13} className="text-primary" />
-            Made Fresh at Home &nbsp;|&nbsp; No Preservatives
-          </div>
-
           {/* Heading */}
           <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl font-bold text-foreground leading-tight text-balance fade-in-up delay-100">
             Care in{" "}
             <span className="text-primary italic">Every Bite</span>
-          </h1>
+          </h1>   
+         
 
           {/* Subtext */}
           <p className="mt-5 text-base sm:text-lg text-foreground/75 leading-relaxed max-w-xl fade-in-up delay-200">
