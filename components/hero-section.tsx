@@ -114,18 +114,18 @@ export function HeroSection() {
       </p>
 
       {/* CTAs */}
-      <div className="mt-6 flex flex-wrap gap-3 fade-in-up delay-300">
+    <div className="mt-6 flex flex-col sm:flex-row gap-3">       
         <a
           href="https://wa.me/919999999999?text=Hi%2C%20I%20want%20to%20order%20from%20Meri%20Laado%20Foods"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center justify-center bg-primary text-primary-foreground px-6 py-3 rounded-full text-sm font-semibold hover:bg-primary/90 transition-all shadow-md w-full sm:w-auto"
+          className="inline-flex items-center justify-center bg-primary text-primary-foreground px-6 py-3 rounded-full text-sm font-semibold hover:bg-primary/90 transition-all shadow-md w-[40%] sm:w-auto"
         >
           Order Now
         </a>
         <a
           href="#products"
-          className="inline-flex items-center justify-center bg-background/80 backdrop-blur-sm border border-border text-foreground px-6 py-3 rounded-full text-sm font-semibold hover:bg-accent transition-all w-full sm:w-auto"
+          className="inline-flex items-center justify-center bg-background/80 backdrop-blur-sm border border-border text-foreground px-6 py-3 rounded-full text-sm font-semibold hover:bg-accent transition-all w-[40%] sm:w-auto"
         >
           View Products
         </a>
